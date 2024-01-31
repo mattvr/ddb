@@ -1,0 +1,7 @@
+**/*
+!scripts
+!.gitignore
+!*.sh
+!*.ts
+!*.jsonc
+!*.md

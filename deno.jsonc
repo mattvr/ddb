@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    // Runs example file
+    "run:example": "deno run --inspect-brk example-file-to-debug.ts",
+    "run:debug": "DEBUG_WS_URL=$1 deno repl --eval-file=ddb-core.ts",
+    "echo": "echo $1"
+  }
+}
