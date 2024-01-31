@@ -1,7 +1,7 @@
 /**
  * This file would ideally invoke the Deno CLI to run the target script with the `--inspect-brk` flag.
  * 
- * However, piping this output to results in a BadResource error, so we'll have to use the `Deno.run` API instead.
+ * However, piping the output of a debugger subprocess seems to result in a BadResource error, so it's currently unused.
  */
 const args = Deno.args;
 
