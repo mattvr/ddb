@@ -1,8 +1,8 @@
 # ddb
 
-ddb: A command line debugger for Deno.
+A command line debugger for Deno.
 
-This is a prototype of a Chrome DevTools Compatible command line debugger for Deno. It's **currently non-functional**, due to issues or limitations with the Deno runtime, however a basic debugger connection can be established.
+This is a prototype of a Chrome DevTools Compatible command line debugger for Deno. It's **currently non-functional**, due to present [issues or limitations](#issues--limitations) with the Deno runtime, however a basic debugger connection can be established.
 
 The goal is to be able to debug using only the command line, similar to `gdb`, `pdb`, etc.
 
