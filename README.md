@@ -47,7 +47,7 @@ Running `deno run --inspect-brk [...]` via a child process created by `new Deno.
 
 This throws an error: `BadResource: Bad resource ID`.
 
-The effect is that it makes for a clunky way to start the debugger, as it requires the user to manually run `deno run --inspect-brk my-file.ts` and `deno repl -A --eval-file=ddb.ts`` to start up the debugger, rather than a one-line `ddg my-file.ts`
+The effect is that it makes for a clunky way to start the debugger, as it requires the user to manually run `deno run --inspect-brk my-file.ts` and `deno repl -A --eval-file=ddb.ts` to start up the debugger, rather than a one-line `ddg my-file.ts`
 
 ## License / Contributing
 
