@@ -37,9 +37,11 @@ Uncaught Error: Cannot find default execution context
   at [...] chrome-remote-interface/0.33.0/lib/chrome.js
 ```
 
-## 2. Lack of support for `debugger` statement
+~~## 2. Lack of support for `debugger` statement~~
 
-The `debugger` statement is not yet supported in Deno, so the `--inspect-brk` flag is required to start the debugger, and you can't easily set breakpoints purely in code.
+~~The `debugger` statement is not yet supported in Deno, so the `--inspect-brk` flag is required to start the debugger, and you can't easily set breakpoints purely in code.~~
+
+Edit: Deno developer confirmed this is supported.
 
 ## 3. Child subprocess limitations
 
